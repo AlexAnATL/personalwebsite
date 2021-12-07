@@ -39,13 +39,11 @@ em {
 }
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat"
 }
 .container-fluid{
   padding: 3% 15%;
 }
 .trashMapHeader {
-  font-family: 'Montserrat';
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -127,4 +125,38 @@ em {
 }
 .endIcon:hover{
   color: #66806A;
+}
+/* Contact Me Page*/
+#contactSection {
+  color:white;
+  font-family: "Montserrat";
+}
+.contactimage {
+  width: 100%;
+  position:absolute;
+  z-index: -1
+}
+.classBody {
+  margin: 0;
+}
+.contactHeading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.socialMediaRow {
+  text-align: center;
+}
+.contactIcon:hover {
+  color: #EC255A;
+}
+.contactIcon {
+  color: #EBE645;
+}
+.contactimage2 {
+  width: 100%;
+  z-index: -1;
+  margin-top: 50%;
+  position: absolute;
 }
