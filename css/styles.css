@@ -198,4 +198,8 @@ a {
 }
 .skillsHeader {
   margin-top: 2%;
+  color: #B91646;
+}
+.skillsColumn {
+  margin: 3% 3%;
 }

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TrashMap Web Concept</title>
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!--CSS STYLESHEET-->
+  <link rel="stylesheet" href="css/trashmapStyle.css">
+  <!--FONT AWESOME-->
+  <script src="https://kit.fontawesome.com/a5106441a1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--TrashMap-->
+  <section id="businessTheme">
+    <div class="container-fluid">
+
+
+      <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #A2B29F; width: 100%">
+        <img src="images/tree.gif" alt="tree" class="treeGif" style="margin-left: 8px; width: 3%;">
+        <a class="navbar-brand" href="#" margin-left: 8px;font-family:"Montserrat">TrashMap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="margin-right: 16px;">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#trashMapEnd" style="color: #52734D;">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features" style="color: #52734D;">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6" style="text-align:center;">
+          <h1 class=trashMapHeader style="margin-top:50px;">Contribute by marking polluted locations around the globe.</h1>
+          <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg donwload-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="images/worldMap.png" alt="worldMap" style="width: 100%; margin-top:50px;" class="worldMap">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4">
+        <i class="far fa-clock fa-10x featureIcon"></i>
+        <h3>Zero Effort.</h3>
+        <p>Just a single press on the app and you have contributed.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fab fa-pagelines fa-10x featureIcon"></i>
+        <h3>Data Driven For Sustainability</h3>
+        <p>We want to know which locations need attention the most.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fas fa-user-secret fa-10x featureIcon"></i>
+        <h3>Privacy Guaranteed.</h3>
+        <p>The only data we seek are the locations of polluted areas.</p>
+      </div>
+    </div>
+  </section>
+  <section id="review">
+    <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 style=font-family: "Montserrat-Black;">Very simple and straightforward. Hope my contribution helps!</h2>
+          <img src="images/reviewer1.png" alt="review1-profile">
+          <em>Corey Roberts, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 style=font-family: "Montserrat-Black;">Great app! Sometimes I dispose garbage that are near me on the map.</h2>
+          <img src="images/reviewer2.png" alt="review2-profile">
+          <em>Taylor Byrd, Colorodo</em>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="press">
+    <img class="press-logo" src="images/pella.png" alt="pella-logo">
+    <img class="press-logo" src="images/adt.png" alt="adt-logo">
+    <img class="press-logo" src="images/sunrun.png" alt="sunrun-logo">
+    <img class="press-logo" src="images/allstate.png" alt="allstate-logo">
+  </section>
+  <section id="cardGroup">
+    <div class="card-group">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/volunteer.png" class="card-img-top" alt="volunteerImage">
+            <div class="card-body">
+              <h5 class="card-title">Volunteer</h5>
+              <p class="card-text">Take initiative and become a user that can also remove markers.</p>
+              <div class="d-grid">
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/dataAnalysis.png" class="card-img-top" alt="dataAnalysisImage">
+            <div class="card-body">
+              <h5 class="card-title">Join Us</h5>
+              <p class="card-text">Join our data analytics team!</p>
+              <div class="d-grid">
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/teamwork.png" class="card-img-top" alt="teamworkImagae">
+            <div class="card-body">
+              <h5 class="card-title">Become A Partner</h5>
+              <p class="card-text">Collaborate with our team in finding new ways to make a change.</p>
+              <div class="d-grid">
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Contact</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bottom">
+    <div class="bottomDiv">
+      <h1 class=trashMapHeader style="margin-top:50px;">Join millions we are all in this together!</h1>
+      <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="btn btn-outline-light btn-lg donwload-button" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+  <section id="trashMapEnd">
+    <div>
+      <i class="fab fa-twitter endIcon"></i>
+      <i class="fab fa-facebook endIcon"></i>
+      <i class="fab fa-instagram endIcon"></i>
+      <i class="fab fa-youtube endIcon"></i>
+    </div>
+    <div>
+      <h6>© Copyright 2020 TrashMap</h6>
+    </div>
+  </section>
+</body>
+</body>
+
+</html>
